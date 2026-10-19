@@ -44,5 +44,8 @@ To validate the worker image locally:
 
 ```sh
 docker build -t sneaker-drop-worker .
-docker run --rm --env-file .env sneaker-drop-worker
+docker run --rm --env-file worker.env sneaker-drop-worker
 ```
+
+Create an untracked `worker.env` with the required variables in Docker's
+`KEY=value` format (without quotes around values). Keep it outside the repository.
