@@ -122,10 +122,9 @@ function DropPage() {
           <h1 className="text-2xl font-semibold tracking-tight">
             Sneaker Drop
           </h1>
-          <Badge variant="secondary">Demo</Badge>
         </div>
         <p className="text-sm text-muted-foreground">
-          20 pairs. Five-minute reservations. Up to two pairs per person.
+          20 pairs - Limited edition
         </p>
       </header>
       <Alert>
@@ -213,10 +212,6 @@ function DropPage() {
           </CardContent>
         </Card>
       )}
-      <p className="text-xs text-muted-foreground">
-        Out of stock? Join the queue. Released pairs go to the first eligible
-        person automatically.
-      </p>
     </main>
   );
 }
