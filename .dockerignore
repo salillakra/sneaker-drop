@@ -1,0 +1,10 @@
+node_modules
+.git
+.next
+.vercel
+.env*
+!.env.example
+app/generated
+artifacts
+coverage
+*.tsbuildinfo
